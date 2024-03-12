@@ -1,0 +1,102 @@
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	padding: 30px 0;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logotipo {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: normal;
+	color: var(--rojo);
+	font-size: 40px;
+}
+
+header nav a {
+	color: #AAA;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: #FFF;
+}
+.logo1{
+    width: 120px;
+    height: 60px;
+}
+
+
+.img-c{
+    object-fit: scale-down;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.gallery {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+ 
+  
+.gallery-item{
+    margin: 20px;  
+    
+    }
+
+    .catalog {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
+        justify-content: center;
+      }
+      
+      .item {
+        margin: 50px; /* Aumenta el margen entre los elementos */
+        text-align: center;
+        width: 250px; /* Define un ancho para los elementos */
+        max-width: 180px;  
+    }
+      
+      .item img {
+        justify-content: center;
+        width: 130%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+
+      }
+      
+      .item h3 {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+
+      .item p {
+        margin-top: 5px;
+        font-size: 16px;
+        color: #555;
+    }
+
+    .catalog-title{
+        margin-top: 20px;
+        color:crimson;
+    }
+
+
+      
+      
